@@ -1,0 +1,26 @@
+:root {
+  --bg: #f6f7fb;
+  --text: #111;
+}
+
+* { box-sizing: border-box; }
+html,body,#root { height: 100%;
+ margin: 0; }
+body {
+  margin: 0;
+  font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  background: var(--bg);
+  color: var(--text);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.appHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 20px;
+  background: #111;
+  color: #fff;
+}
+.appHeader .brand { font-weight: 700; font-size: 18px; }
+.appHeader .headerRight { display:flex; gap:12px; align-items:center; }
