@@ -1,16 +1,56 @@
-# React + Vite
+# hmrTool
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple patient record management tool built with React and Vite.
+It allows you to collect patient details, calculate age from date of birth, save records, update history, and manage basic medical information.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* Easy patient registration form  
+* Automatic age calculation from date of birth  
+* Patient list page  
+* Medical history page  
+* Fast refresh with Vite  
+* Clean and simple interface for learning and demonstration
 
-## React Compiler
+## Folder Structure
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* src  
+  * components  
+  * pages  
+  * assets  
+  * App.jsx  
+  * main.jsx
 
-## Expanding the ESLint configuration
+## Pages
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Login Page  
+Basic starting page for signing into the tool.
+
+### Patient List Page  
+Shows all saved patients.  
+Allows selection of a record for more details.
+
+### Medical History Page  
+Shows and updates patient history.
+
+## How to Run the Project
+
+### Install dependencies  
+npm install
+
+### Start the development server  
+npm run dev
+
+### Build for production  
+npm run build
+
+## Future Improvements
+
+* Better form validation  
+* Search feature on the patient list  
+* Local storage or backend storage  
+* User roles for nurses and doctors  
+* More detailed medical history sections
+
+## Author
+Omale Faith Ufedo Ojo
